@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ashurov.wd</title>
+</head>
+<body>
+<header>
+    <a href="{% url 'home' %}">Bosh sahifa |</a>
+    <a href="{% url 'about' %}">Saytimiz haqida ma'lumot |</a>
+    <a href="{% url 'person' %}">Saytni yaratgan inson haqida ma'lumot |</a>
+    <a href="{% url 'dream' %}">Kelajakdegi orzuyim |</a>
+</header>
+{% block content %}
+{% endblock content %}
+</body>
+</html>
